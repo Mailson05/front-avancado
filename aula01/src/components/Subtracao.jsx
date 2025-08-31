@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Subtracao = () => {
+const Subtracao = (props) => {
   return (
-    <div>Subtracao</div>
+    <div>Resultado da Subtração e {props.num1 - props.num2}</div>
   )
 }
 
