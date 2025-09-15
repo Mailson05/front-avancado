@@ -21,6 +21,7 @@ const HookContador = () => {
         <button onClick={decrementar}>Decrementar contador</button>
         <h1>O contador esta em : {contador}</h1>
         
+        
     </div>
   )
 }
