@@ -25,8 +25,8 @@ const HookMegaSena = () => {
   return (
     <div>
       <h1>Sorteador da Mega em React!</h1>
-      <button onClick={sortearNumero}>Gerar número</button>
-      <h2>Último número sorteado: {ultimoNumeroSorteado !== null ? ultimoNumeroSorteado : ''}</h2>
+      <button onClick={sortearNumero}>Sortear Número</button>
+      <h2>Último Número sorteado: {ultimoNumeroSorteado !== null ? ultimoNumeroSorteado : ''}</h2>
       <h2>Sorteados: {numerosSorteado.join(' - ')}</h2>
     </div>
   );
