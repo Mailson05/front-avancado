@@ -10,7 +10,12 @@ function App() {
 
   return (
 
-    <Campanha mes= "setembro"/>
+    <div><Campanha mes= "setembro"/>
+    
+    </div>
+
+    
+    
   
   )
 }
